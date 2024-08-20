@@ -115,18 +115,9 @@
       padding: 0px;
       list-style: none;
     }
-    
-    ol {
-      margin: 0px;
-      padding-left: 10px;
-    }
 
-    #contacts {
-      list-style: none;
-    }
-    
-    li {
-      margin-bottom: 5px;
+    .left-container li {
+      padding-left: 0px;
       list-style: none;
     }
     
@@ -158,8 +149,6 @@
   @media (min-width: 1025px){
     img {
       border-radius: 50%;
-      height: 500px;
-      width: 400px;
       align-self: center;
     }
     .left-container h2 {
