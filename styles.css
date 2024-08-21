@@ -42,6 +42,11 @@
   .career {
     margin-bottom: 10%;
   }
+
+  #contacts {
+    margin: 0px;
+    padding: 0px;
+  }
   
   @media (max-width: 425px){
     body{
@@ -104,7 +109,7 @@
 
   @media (min-width: 426px) and (max-width:1024){
     body{
-      font-size: 12px;
+      font-size: 10px;
     }
     .left-container h2 {
       padding-bottom: 5px;
@@ -112,13 +117,13 @@
     }
     
     .left-container ul {
+      color: red;
       padding: 0px;
-      list-style: none;
     }
 
-    .left-container li {
+    #contacts {
+      margin-left: 0px;
       padding-left: 0px;
-      list-style: none;
     }
     
     h1 {
